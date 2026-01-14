@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chính sách quyền riêng tư cho ứng dụng IDE DevTools Suite (mobile)." />
+    <title>Privacy Policy - IDE DevTools Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#eef2ff',
+                100: '#e0e7ff',
+                200: '#c7d2fe',
+                300: '#a5b4fc',
+                400: '#818cf8',
+                500: '#6366f1',
+                600: '#4f46e5',
+                700: '#4338ca',
+                800: '#3730a3',
+                900: '#312e81',
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="min-h-screen bg-white text-slate-900">
+
+    <header class="mx-auto max-w-4xl px-6 pt-10 pb-6">
+      <div class="flex items-start justify-between gap-6">
+        <div>
+          <p class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700">
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+            Trang chính sách cho Google Play
+          </p>
+          <h1 class="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">Chính sách quyền riêng tư</h1>
+          <p class="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
+            Trang này mô tả cách ứng dụng <span class="font-medium text-slate-900">IDE DevTools Suite</span> xử lý dữ liệu.
+            Ứng dụng được thiết kế để sử dụng <span class="font-medium text-slate-900">offline</span> và
+            <span class="font-medium text-slate-900">không thu thập bất kỳ thông tin cá nhân nào</span>.
+          </p>
+        </div>
+        <div class="hidden sm:block">
+          <div class="rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm">
+            <p class="text-xs font-medium text-slate-600">Ngày hiệu lực</p>
+            <p id="effectiveDate" class="mt-1 text-sm text-slate-900"></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-4xl px-6 pb-16">
+      <section class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <h2 class="text-lg font-semibold text-slate-900">Tóm tắt</h2>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2">
+          <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+            <p class="text-sm font-semibold text-slate-900">Không thu thập dữ liệu</p>
+            <p class="mt-1 text-sm text-slate-600">Ứng dụng không thu thập, không lưu trữ trên máy chủ, không chia sẻ dữ liệu người dùng.</p>
+          </div>
+          <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+            <p class="text-sm font-semibold text-slate-900">Không analytics / quảng cáo</p>
+            <p class="mt-1 text-sm text-slate-600">Không dùng SDK theo dõi (analytics), không quảng cáo, không marketing.</p>
+          </div>
+          <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+            <p class="text-sm font-semibold text-slate-900">Xử lý tại thiết bị</p>
+            <p class="mt-1 text-sm text-slate-600">Mọi thao tác (hash, base64, QR, chuyển đổi, v.v.) được xử lý cục bộ.</p>
+          </div>
+          <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+            <p class="text-sm font-semibold text-slate-900">Dữ liệu tùy chọn (cục bộ)</p>
+            <p class="mt-1 text-sm text-slate-600">Nếu bạn dùng Lịch sử/Yêu thích, dữ liệu chỉ được lưu trên thiết bị của bạn.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-8 space-y-8">
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">1. Ứng dụng này là gì?</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            IDE DevTools Suite là ứng dụng tập hợp các công cụ tiện ích cho lập trình viên và người dùng kỹ thuật.
+            Một số tính năng tiêu biểu có thể bao gồm:
+          </p>
+          <div class="mt-4 grid gap-3 sm:grid-cols-2">
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-sm font-semibold text-slate-900">Crypto & Security</p>
+              <p class="mt-1 text-sm text-slate-600">Hash (MD5/SHA), UUID, Base64, tạo mật khẩu.</p>
+            </div>
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-sm font-semibold text-slate-900">Converters</p>
+              <p class="mt-1 text-sm text-slate-600">JSON ↔ YAML, chuyển đổi cơ số, Timestamp.</p>
+            </div>
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-sm font-semibold text-slate-900">Web Tools</p>
+              <p class="mt-1 text-sm text-slate-600">QR Code, URL encode/decode, HTML entities, User-Agent parser.</p>
+            </div>
+            <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-sm font-semibold text-slate-900">Text Processing</p>
+              <p class="mt-1 text-sm text-slate-600">So sánh văn bản (diff), Lorem Ipsum, chuyển đổi kiểu chữ (case).</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">2. Dữ liệu chúng tôi thu thập</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            <span class="font-semibold text-slate-900">Chúng tôi không thu thập bất kỳ thông tin nào</span> từ người dùng.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">3. Dữ liệu được xử lý như thế nào?</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Mọi dữ liệu bạn nhập vào các công cụ (ví dụ: văn bản để mã hóa Base64, tạo hash, tạo QR, chuyển đổi định dạng...)
+            được xử lý <span class="font-medium text-slate-900">trực tiếp trên thiết bị</span> và <span class="font-medium text-slate-900">không được gửi</span> tới máy chủ của chúng tôi.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">4. Lưu trữ cục bộ (History / Favorites)</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Ứng dụng có thể cung cấp tính năng Lịch sử và/hoặc Yêu thích để bạn dễ truy cập lại công cụ hoặc nội dung đã dùng.
+            Nếu bạn sử dụng các tính năng này, dữ liệu sẽ được lưu <span class="font-medium text-slate-900">chỉ trên thiết bị</span> (local storage) và bạn có thể xóa bất cứ lúc nào bằng cách xóa dữ liệu ứng dụng hoặc gỡ cài đặt.
+          </p>
+          <div class="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4">
+            <p class="text-sm text-slate-600">
+              <span class="font-semibold text-slate-900">Lưu ý:</span> Chúng tôi không có quyền truy cập vào dữ liệu cục bộ này và không thể khôi phục nếu bạn xóa.
+            </p>
+          </div>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">5. Quyền truy cập thiết bị (Permissions)</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Ứng dụng được thiết kế để hoạt động mà không cần các quyền nhạy cảm.
+            Trong trường hợp tương lai có tính năng yêu cầu quyền (ví dụ: Camera để quét QR), quyền đó sẽ chỉ được sử dụng
+            cho mục đích đúng với tính năng và vẫn theo nguyên tắc <span class="font-medium text-slate-900">không thu thập dữ liệu</span>.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">6. Dịch vụ bên thứ ba</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Ứng dụng <span class="font-semibold text-slate-900">không tích hợp</span> dịch vụ quảng cáo, SDK theo dõi, hay bất kỳ bên thứ ba nào để thu thập dữ liệu người dùng.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">7. Bảo mật</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Vì ứng dụng không thu thập và không truyền dữ liệu người dùng lên máy chủ, rủi ro liên quan tới rò rỉ dữ liệu từ phía chúng tôi được giảm thiểu.
+            Tuy nhiên, bạn vẫn nên bảo vệ thiết bị của mình (mật khẩu/mã PIN, khóa màn hình) để đảm bảo an toàn dữ liệu cục bộ.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">8. Quyền riêng tư của trẻ em</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Ứng dụng không hướng tới trẻ em dưới 13 tuổi và không thu thập dữ liệu từ bất kỳ ai, bao gồm trẻ em.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">9. Thay đổi đối với chính sách</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Chúng tôi có thể cập nhật Chính sách quyền riêng tư này khi cần thiết. Nếu có thay đổi quan trọng,
+            chúng tôi sẽ cập nhật nội dung trên trang này và thay đổi ngày hiệu lực.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 class="text-lg font-semibold text-slate-900">10. Liên hệ</h2>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Nếu bạn có câu hỏi về Chính sách quyền riêng tư, vui lòng liên hệ:
+          </p>
+          <div class="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4">
+            <p class="text-sm text-slate-700"><span class="font-semibold text-slate-900">Email:</span> <a class="text-brand-700 hover:text-brand-800 underline underline-offset-4" href="mailto:1995dothinhuong@gmail.com">1995dothinhuong@gmail.com</a></p>
+          </div>
+        </article>
+      </section>
+
+      <footer class="mt-12 border-t border-slate-200 pt-6 text-sm text-slate-500">
+        <p>© <span id="year"></span> IDE DevTools Suite. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script>
+      (function () {
+        var now = new Date();
+        var yearEl = document.getElementById('year');
+        var effectiveEl = document.getElementById('effectiveDate');
+        if (yearEl) yearEl.textContent = String(now.getFullYear());
+        if (effectiveEl) {
+          // Format: dd/mm/yyyy (vi-VN)
+          effectiveEl.textContent = new Intl.DateTimeFormat('vi-VN', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+          }).format(now);
+        }
+      })();
+    </script>
+  </body>
+</html>
